@@ -1,0 +1,193 @@
+/* bootstrap overrides */
+.navbar{
+	margin-bottom: 0 !important; 
+    position: relative !important;
+    background-color: #cfcfcf !important;
+	background-image: url("http://assets.jazz.co/customers/customer_20150708104047_1PFSAXIIOBU0NLPT/layout/ptc-header-bg-3.jpg");
+	background-position: center center !important; 
+	background-repeat: repeat !important; 
+}
+
+.btn-primary{
+  background-color: #ff8000 !important;
+  color: white;
+  text-shadow: 0 1px 1px #b25900;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+  background-color: #ddd !important;
+  font-size: 15px !important;
+  font-family: OpenSans,Helvetica,Arial,sans-serif;
+}
+
+.footer {
+  /* position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here 
+  height: 150px; */
+  background-color: #333;
+}
+
+/* custom styles */
+
+.row-jobdesc {
+	margin: 0px !important;
+}
+
+.border-red{
+  border: 1px solid red;
+}
+
+.hq-address{
+  list-style: none;
+  margin-top:20px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.hq-region{
+	font-weight: bold !important; 
+	font-size: 18px
+}
+
+.great-place{
+	margin-top: -10px;
+}
+
+.team-ptc{
+	color: #5897f6;
+    font-weight: bold;
+}
+
+.job-form{
+	width: 50%;
+}
+
+.jobdesc-cont{
+	margin: 20px 0 20px 0 !important;
+}
+
+.job-detail-labels{
+	font-weight: bold;
+	margin: 20px 3px 5px 15px;
+}
+
+.confirm-message{
+	padding: 50px 20px 20px 50px;
+}
+
+.questionnaire{
+	margin: 30px 20px 10px 20px !important;
+}
+
+.questionnaire-forms{
+	margin: 0px 20px 100px 30px !important;
+	width: 80%;
+}
+
+.bldg-careers{
+	color: #fff;
+    background-color: #656565;
+    width: 100% !important;
+}
+
+.bldg-careers-txt{
+	margin-left: 100px;
+}
+
+.job-type{
+	padding: 10px 0 20px 0;
+}
+
+.working-ptc{
+	color: #fff;
+    background-color: #5897f6;
+    width: 80% !important;
+	padding-bottom: 20px;
+	margin: 0 auto !important;
+}
+
+.working-ptc-wrap{
+	color: #fff;
+    background-color: #5897f6;
+    width: 100% !important;
+}
+
+
+.backTo-list{
+	float: right;
+  	height: 35px;
+  	padding: 7px !important;
+  	font-size: 16px !important;
+}
+
+
+/* jazz styles overrides */
+
+#resumator-job-listings table.resumator-job-listings {
+	background: #fafafa;
+	margin: 20px auto 20px;
+    font-size: 18px;
+    width: 60%;
+}
+
+#resumator-share-links{
+	width: 90% !important;
+}
+
+div#resumator-job-description  ol,ul{
+	margin: 0px 50px 8px 50px;
+}
+
+table.resumator-job-listings td.resumator-job-title-column a:before {
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  /* content: "Apply now"; */
+  width: 90px;
+  background-color: #ff8000;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #b25900;
+  border: none;
+  padding: 12px 12px !important;
+  font-size: 13px;
+  line-height: 13px !important;
+}
+
+table.resumator-job-listings td.resumator-job-location-column{
+	padding-left: 25px !important;
+}
+
+table.resumator-job-listings td.resumator-job-title-column{
+	line-height: 38px !important;
+	padding-left: 20px !important;
+}
+
+table.resumator-job-listings tr{
+	  border-bottom: 1px solid #ccc;
+}
+
+table.resumator-job-listings th{
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.resumator-department-column{
+	display: none;
+}
+
+#resumator-job-title{
+	font-size: 30px !important;
+    font-weight: bold !important; 
+}
