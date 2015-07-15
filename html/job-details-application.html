@@ -1,0 +1,51 @@
+<!-- Job details -->
+
+<div class="container">
+	<div class="row jobdesc-cont">
+	  <div class="col-md-8">
+
+		<div class="row">
+			<resumator content="job_title" id="_current" />
+		</div>
+		
+		<div class="row job-type">
+			<div class="text-left pull-left">
+				<span class=""><strong>TYPE:</strong></span>	
+				<resumator content="job_type" id="_current" />
+			</div>
+			<div class="text-left pull-left">
+				<span class="job-detail-labels">STATUS:</span>	
+				<resumator content="job_status" id="_current" />
+			</div>
+			<div class="text-left pull-left">
+				<span class="job-detail-labels">EXPERIENCE:</span> 
+				<resumator content="job_experience" id="_current" />
+			</div>
+		</div>
+		
+		<div class="row row-jobdesc">
+		  <div class="row">
+			<resumator content="job_description" id="_current" />
+		  </div>
+		  
+		  <div class="row">
+			<resumator content="job_buttons_widget" />
+		  </div>
+		  
+		  <div class="row">
+			<resumator content="job_share_links" job="_current" include="email,resumator,twitter,facebook,linkedin" />
+		  </div>
+		</div>
+	  </div>
+	 
+	  <div class="col-md-4">
+		  <div class="row">
+			<a class="btn btn-primary btn-lg backTo-list" href="http://pointquest.applytojob.com/" role="button">Back to list</a>
+		  </div>
+		  <div class="row">
+			<resumator content="job_application" />
+		  </div>
+	  </div>    
+
+	</div> <!-- close jobdesc-cont -->
+</div> <!-- close container -->
